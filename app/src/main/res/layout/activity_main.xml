@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Lioght_red"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
 
@@ -49,7 +49,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:backgroundTint="#444E5D"/>
+        android:backgroundTint="#FF5722"/>
 
 
 
@@ -66,7 +66,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintLeft_toLeftOf="@+id/add"
-        android:backgroundTint="#444E5D"/>
+        android:backgroundTint="#FF5722"/>
 
     <Button
         android:id="@+id/Mult"
@@ -81,7 +81,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintLeft_toLeftOf="@+id/sub"
-        android:backgroundTint="#444E5D"/>
+        android:backgroundTint="#FF5722"/>
 
     <Button
         android:id="@+id/Div"
@@ -96,7 +96,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintLeft_toLeftOf="@+id/Mult"
-        android:backgroundTint="#444E5D"/>
+        android:backgroundTint="#FF5722"/>
 
     <Button
         android:id="@+id/one"
@@ -156,7 +156,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="@+id/three"
         app:layout_constraintTop_toBottomOf="@+id/Div"
-        android:backgroundTint="#444E5D"/>
+        android:backgroundTint="#FF5722"/>
     <Button
         android:id="@+id/four"
         android:layout_width="80dp"
@@ -212,7 +212,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="@+id/six"
         app:layout_constraintTop_toBottomOf="@+id/clear"
-        android:backgroundTint="#444E5D"/>
+        android:backgroundTint="#FF5722"/>
     <Button
         android:id="@+id/seven"
         android:layout_width="80dp"
